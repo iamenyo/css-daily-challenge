@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.65rem 1.5rem;
+    background-color: transparent blur;
+}
+header img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: #3B82F6;
+    transition: transform ease-in 0.3s;
+}
+
+nav a:hover{
+    transform: translateY(-2px);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto Mono", monospace;
+    min-height: 100vh;
+    background-color: #06080f;
+    color: #F8FAFC;
+}
+span{
+    color: #2563eb;
+}
+.hero{
+    min-height: 100vh;
+    background-color: #0D1321;
+    display: flex;
+    flex-direction: column;
+    padding: 0 4rem;
+    gap: 1rem;
+}
+.btn{
+    display: flex;
+    gap: 4rem;
+}
+.btn button{
+    border:1px solid rgba(59,130,246,.4);
+    background:rgba(7,15,30,.7);
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+    box-shadow: 0 0 25px rgba(59,130,246,.2);
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.btn button:hover{
+    transform: translateY(-2px);
+}
+.work{
+    color: #3B82F6;
+}
+.contact{
+    color: #F8FAFC;
+}
+.title-line{
+    width:450px;
+    height:2px;
+    background:#2563eb;
+    margin:2rem 0;
+    position:relative;
+}
+
+.title-line::before{
+    content:"";
+    position:absolute;
+    left:0;
+    top:-4px;
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background:#3b82f6;
+}
+h1{
+    font-size: 5rem;
+}
+.presentation-box{
+    display: flex;
+    justify-content: space-between;
+}
+.editor{
+    width:500px;
+    height:400px;
+    border:1px solid rgba(59,130,246,.4);
+    border-radius:20px;
+
+    background:rgba(7,15,30,.7);
+
+    backdrop-filter:blur(10px);
+
+    box-shadow:
+        0 0 25px rgba(59,130,246,.2);
+}
+
+.editor-header{
+    padding:1rem;
+    border-bottom:1px solid rgba(255,255,255,.1);
+}
+
+.red,
+.yellow,
+.green{
+    width:12px;
+    height:12px;
+    display:inline-block;
+    border-radius:50%;
+}
+
+.red{
+    background:#ff5f56;
+}
+.yellow{
+    background:#ffbd2e;
+}
+.green{
+    background:#27c93f;
+}
+.presentation{
+    width: 50%;
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.presentation p{
+    font-size: 1.3rem;
+}
+
+.social-icon{
+    margin: 1rem;
+    display: flex;
+    gap: 20px;
+}
+.social-icon a{
+    font-size: 25px;
+    color: #2563eb;
+    transition: transform ease-in-out 0.3s;
+}
+.social-icon a:hover{
+    transform: scale(1.2);
+}
