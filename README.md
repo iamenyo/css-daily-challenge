@@ -7,6 +7,3 @@ A collection of daily CSS projects created to strengthen my frontend development
 - Day 01 - Profile Card (done)
 - Day 02 - Pricing Card
 - Day 03 - Landing Page
-- Day 04 - Navbar
-- Day 05 - Dash-bord
-...
